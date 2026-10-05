@@ -31,6 +31,7 @@
 <p>Pour fonctionner, l'application enregistre localement, sur l'appareil :</p>
 <ul>
   <li>le jeton d'accès Plex obtenu à la connexion (code à saisir sur plex.tv/link) et le profil Plex choisi ;</li>
+  <li>un identifiant aléatoire créé à l'installation, que Plex utilise pour reconnaître l'appareil (il apparaît dans les « Appareils autorisés » de votre compte Plex) ;</li>
   <li>vos réglages : langues audio et sous-titres, qualité, apparence des sous-titres, et l'adresse (et la clé d'API éventuelle) d'un serveur compagnon.</li>
 </ul>
 <p>Ces données ne quittent l'appareil que vers les services décrits ci-dessous.</p>
@@ -38,7 +39,7 @@
 <h2>Services contactés</h2>
 <ul>
   <li><strong>Plex (plex.tv)</strong> : connexion à votre compte, liste de vos serveurs et profils. Ces échanges sont régis par la <a href="https://www.plex.tv/about/privacy-legal/">politique de confidentialité de Plex</a>.</li>
-  <li><strong>Vos serveurs Plex</strong> : bibliothèques, images, lecture, et état de visionnage (position de lecture, vu / non vu), comme toute application Plex.</li>
+  <li><strong>Vos serveurs Plex</strong> : bibliothèques, images, recherches, lecture, et état de visionnage (position de lecture, vu / non vu), comme toute application Plex.</li>
   <li><strong>Serveur compagnon (facultatif)</strong> : si vous saisissez son adresse dans Réglages, l'application lui envoie le jeton de votre profil Plex pour l'identifier et affiche ce qu'il propose (rangées, listes, demandes). N'ajoutez qu'un serveur de confiance : il est exploité par vous ou par la personne qui vous l'a fourni, pas par le développeur de PTV.</li>
 </ul>
 
@@ -78,6 +79,7 @@
 <p>To work, the app stores locally on the device:</p>
 <ul>
   <li>the Plex access token obtained at sign-in (code entered at plex.tv/link) and the selected Plex profile;</li>
+  <li>a random identifier created at install time, which Plex uses to recognise the device (it appears in your Plex account's “Authorized Devices”);</li>
   <li>your settings: audio and subtitle languages, quality, subtitle appearance, and the address (and optional API key) of a companion server.</li>
 </ul>
 <p>This data only leaves the device towards the services below.</p>
@@ -85,7 +87,7 @@
 <h2>Services contacted</h2>
 <ul>
   <li><strong>Plex (plex.tv)</strong>: signing in to your account, listing your servers and profiles. These exchanges are governed by <a href="https://www.plex.tv/about/privacy-legal/">Plex's privacy policy</a>.</li>
-  <li><strong>Your Plex servers</strong>: libraries, artwork, playback and watch state (playback position, watched / unwatched), like any Plex app.</li>
+  <li><strong>Your Plex servers</strong>: libraries, artwork, searches, playback and watch state (playback position, watched / unwatched), like any Plex app.</li>
   <li><strong>Companion server (optional)</strong>: if you enter its address in Settings, the app sends it your Plex profile token to identify you and shows what it offers (rows, lists, requests). Only add a server you trust: it is run by you or by whoever gave it to you, not by the developer of PTV.</li>
 </ul>
 
