@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PTV — Règles de confidentialité / Privacy policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; color: #1d1d1f; background: #fff; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; }
+  .meta { color: #666; margin-top: 0; }
+  hr { border: 0; border-top: 1px solid #ddd; margin: 48px 0; }
+  @media (prefers-color-scheme: dark) { body { color: #eee; background: #111; } .meta { color: #aaa; } hr { border-color: #333; } a { color: #8ab4f8; } }
+</style>
+</head>
+<body>
+
+<h1>PTV — Règles de confidentialité</h1>
+<p class="meta">Dernière mise à jour : 5 octobre 2026 · <a href="#en">English version below</a></p>
+
+<p>PTV est une application pour téléviseurs (Android TV / Google TV, Fire TV, Apple TV, Samsung, LG) qui lit les contenus de votre propre serveur Plex. Ces règles décrivent les données que l'application utilise, où elles vont et comment les supprimer.</p>
+
+<h2>En résumé</h2>
+<ul>
+  <li>Le développeur de PTV n'exploite aucun serveur qui reçoit vos données : il ne collecte, ne stocke ni ne vend aucune donnée.</li>
+  <li>Aucune publicité, aucune mesure d'audience, aucun traceur, aucun SDK d'analyse.</li>
+  <li>L'application ne communique qu'avec Plex (plex.tv et vos serveurs Plex) et, si vous en ajoutez un, avec le serveur compagnon que vous choisissez.</li>
+</ul>
+
+<h2>Données conservées sur le téléviseur</h2>
+<p>Pour fonctionner, l'application enregistre localement, sur l'appareil :</p>
+<ul>
+  <li>le jeton d'accès Plex obtenu à la connexion (code à saisir sur plex.tv/link) et le profil Plex choisi ;</li>
+  <li>vos réglages : langues audio et sous-titres, qualité, apparence des sous-titres, et l'adresse (et la clé d'API éventuelle) d'un serveur compagnon.</li>
+</ul>
+<p>Ces données ne quittent l'appareil que vers les services décrits ci-dessous.</p>
+
+<h2>Services contactés</h2>
+<ul>
+  <li><strong>Plex (plex.tv)</strong> : connexion à votre compte, liste de vos serveurs et profils. Ces échanges sont régis par la <a href="https://www.plex.tv/about/privacy-legal/">politique de confidentialité de Plex</a>.</li>
+  <li><strong>Vos serveurs Plex</strong> : bibliothèques, images, lecture, et état de visionnage (position de lecture, vu / non vu), comme toute application Plex.</li>
+  <li><strong>Serveur compagnon (facultatif)</strong> : si vous saisissez son adresse dans Réglages, l'application lui envoie le jeton de votre profil Plex pour l'identifier et affiche ce qu'il propose (rangées, listes, demandes). N'ajoutez qu'un serveur de confiance : il est exploité par vous ou par la personne qui vous l'a fourni, pas par le développeur de PTV.</li>
+</ul>
+
+<h2>Signalement d'un problème</h2>
+<p>Si vous utilisez « Signaler un problème » avec un serveur compagnon qui le propose, le signalement (titre concerné, motif choisi) est envoyé à ce serveur. Il peut y joindre un diagnostic technique de l'appareil (modèle, version du système, capacités de lecture, déroulé de la dernière lecture de ce titre). Ce diagnostic ne contient ni jeton, ni adresse réseau, ni chemin de fichier, ni identifiant d'appareil.</p>
+
+<h2>Partage</h2>
+<p>Aucune donnée n'est vendue ni partagée avec des tiers à des fins publicitaires ou commerciales. Les seuls destinataires sont Plex, vos serveurs Plex et le serveur compagnon que vous avez choisi.</p>
+
+<h2>Sécurité</h2>
+<p>Les échanges avec plex.tv se font en HTTPS ; avec vos serveurs, en HTTPS lorsque le serveur le permet, ou en HTTP sur votre réseau local. Les jetons ne sont jamais écrits dans les journaux de l'application.</p>
+
+<h2>Suppression</h2>
+<p>« Se déconnecter » (Réglages › Profil) efface le jeton Plex et le profil de l'appareil ; « Déconnecter » (Réglages › Serveur de métadonnées) efface l'adresse et la clé du serveur compagnon. Désinstaller l'application efface toutes ses données. Vous pouvez aussi révoquer l'accès de l'appareil depuis votre compte Plex (Paramètres › Appareils autorisés).</p>
+
+<h2>Enfants</h2>
+<p>L'application ne s'adresse pas spécifiquement aux enfants et ne collecte pas sciemment de données les concernant.</p>
+
+<h2>Contact</h2>
+<p>Pour toute question : <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+<hr>
+
+<h1 id="en">PTV — Privacy policy</h1>
+<p class="meta">Last updated: October 5, 2026</p>
+
+<p>PTV is a TV app (Android TV / Google TV, Fire TV, Apple TV, Samsung, LG) that plays the content of your own Plex server. This policy explains what data the app uses, where it goes and how to delete it.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>The developer of PTV runs no server that receives your data: no data is collected, stored or sold by the developer.</li>
+  <li>No ads, no analytics, no trackers, no analytics SDK.</li>
+  <li>The app only talks to Plex (plex.tv and your Plex servers) and, if you add one, to the companion server you choose.</li>
+</ul>
+
+<h2>Data stored on the TV</h2>
+<p>To work, the app stores locally on the device:</p>
+<ul>
+  <li>the Plex access token obtained at sign-in (code entered at plex.tv/link) and the selected Plex profile;</li>
+  <li>your settings: audio and subtitle languages, quality, subtitle appearance, and the address (and optional API key) of a companion server.</li>
+</ul>
+<p>This data only leaves the device towards the services below.</p>
+
+<h2>Services contacted</h2>
+<ul>
+  <li><strong>Plex (plex.tv)</strong>: signing in to your account, listing your servers and profiles. These exchanges are governed by <a href="https://www.plex.tv/about/privacy-legal/">Plex's privacy policy</a>.</li>
+  <li><strong>Your Plex servers</strong>: libraries, artwork, playback and watch state (playback position, watched / unwatched), like any Plex app.</li>
+  <li><strong>Companion server (optional)</strong>: if you enter its address in Settings, the app sends it your Plex profile token to identify you and shows what it offers (rows, lists, requests). Only add a server you trust: it is run by you or by whoever gave it to you, not by the developer of PTV.</li>
+</ul>
+
+<h2>Reporting a problem</h2>
+<p>If you use “Report a problem” with a companion server that offers it, the report (title concerned, chosen reason) is sent to that server. It may include a technical diagnostic of the device (model, OS version, playback capabilities, outline of the last playback of that title). This diagnostic contains no token, no network address, no file path and no device identifier.</p>
+
+<h2>Sharing</h2>
+<p>No data is sold or shared with third parties for advertising or commercial purposes. The only recipients are Plex, your Plex servers and the companion server you chose.</p>
+
+<h2>Security</h2>
+<p>Traffic to plex.tv uses HTTPS; to your servers, HTTPS when the server allows it, or HTTP on your local network. Tokens are never written to the app's logs.</p>
+
+<h2>Deletion</h2>
+<p>“Se déconnecter” (Settings › Profile) erases the Plex token and profile from the device; “Déconnecter” (Settings › Metadata server) erases the companion server's address and key. Uninstalling the app erases all of its data. You can also revoke the device's access from your Plex account (Settings › Authorized Devices).</p>
+
+<h2>Children</h2>
+<p>The app is not specifically directed at children and does not knowingly collect data about them.</p>
+
+<h2>Contact</h2>
+<p>For any question: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+
+</body>
+</html>
